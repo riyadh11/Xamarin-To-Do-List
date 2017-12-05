@@ -1,7 +1,7 @@
 Todo
 ====
 
-This sample demonstrates a Todo list application where the data is stored and accessed in a local SQLite database.
+This app demonstrates a Todo list application where the data is stored and accessed in a local SQLite database.
 
 The app functionality is:
 
@@ -11,9 +11,7 @@ The app functionality is:
 
 In all cases the tasks are stored in a local SQLite database.
 
-For more information about the sample see [Working with a Local Database](https://developer.xamarin.com/guides/xamarin-forms/working-with/databases/).
-
 Authors
 -------
 
-Craig Dunn, Bryan Costanich
+Ahmad Riyadh Al Faathin
