@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Todo.TodoItemPage" Title="{Binding Name}">
+	<StackLayout Margin="20" VerticalOptions="StartAndExpand">
+		<Label Text="Nama" />
+		<Entry x:Name="txtNama" Text="{Binding Name}" />
+		<Label Text="Catatan" />
+		<Entry x:Name="txtCatatan" Text="{Binding Description}" />
+		<Label Text="Done" />
+		<Switch x:Name="toggleDone" IsToggled="{Binding Done}" />
+		<Button Text="Save" Clicked="OnSaveClicked" />
+		<Button Text="Delete" Clicked="OnDeleteClicked" />
+		<Button Text="Cancel" Clicked="OnCancelClicked" />
+		<Button Text="Speak" Clicked="OnSpeakClicked" />
+        <Label x:Name="id" Text="{Binding Id}"/>
+    </StackLayout>
+</ContentPage>
